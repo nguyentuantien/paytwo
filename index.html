@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.min.css">
+    <script defer src="fontawesome-free-5.0.6/svg-with-js/js/fontawesome-all.js"></script>
+    <link rel="stylesheet" href="css/style.css" >
+  </head>
+  <body>
+      <nav class="navbar navbar-default navbar-fixed-top nav-menu-mobile nav-menu">
+        <div class="container-fluid">
+          <div class="navbar-header logo">
+          <a href="https://www.cione.vn/" class="navbar-brand" target="_blank">  <h2>CiOne.Vn</h2></a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav navbar-right btn-action">
+                <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Chương trình <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Hành trình chinh phục ước mơ</a></li>                      
+                        </ul>
+                  </li>
+                <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lộ trình <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Thiết kế web</a></li>
+                        <li><a href="#">Front End</a></li>
+                        <li><a href="#">Back End</a></li>   
+                        </ul>
+                    </li>
+              <li><a href="https://www.cione.vn/class/learning/courses">Học thử</a></li>
+              <li><a href="https://www.cione.vn/class/login">Đăng nhập</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="tam">
+      
+      </section>
+      <section class="register">
+            <h2 class="title-price">Thanh toán học phí</h2>
+        <div class="container">
+          
+          <div class="row">
+             <div class="col-lg-4">
+                 <div class="box">
+                    <h4 class="title-heading">Bước 1: Đăng ký</h4>
+                     <div class="box-detail">
+                         <br>
+                         <br>
+                          <p>Nếu bạn chưa có tài khoản thì bạn hãy click vào nút đăng ký bên dưới nhé! </p>
+                       <a href="https://www.cione.vn/class/login" id="register" target="_blank">Đăng ký</a>
+                     </div>
+                 </div>
+                
+              </div>  
+              <div class="col-lg-4">
+                <div class="box">
+                    <h4 class="title-heading">Bước 2: Thanh toán</h4>
+                     <div class="box-detail">
+                        <div class="form-group">
+                            <label>Ngân hàng</label>
+                            <select class="form-control" id="mySelect" onchange="checkSelect()">
+                                <option value="vietcombank" >Vietcombank</option>
+                                <option value="acb">ACB Bank</option>
+                                <option value="vietin">Vietin Bank</option>
+                                <option value="sacom">Sacombank</option>
+                                <option value="bidv">BIDV Bank</option>
+                                <option value="agri">Agribank Bank</option>
+                                <option value="tech">Techcom Bank</option>
+                              </select>
+                         </div>
+                         <ul class="account" >
+                            <li class="number-account"> Số tài khoản: <span class="number-account">044 100 377 8455</span> </li>
+                            <li> Chủ tài khoản:<span> Phó Hải Đăng</span></li>
+                             <li class="detail-location">Chi nhánh: <span class="location">Cộng Hoà, Tân Bình, HCM</span> </li>
+                             <li>Nội dung chuyển khoản: <span>Số điện thoại của bạn</span></li>
+                         </ul>
+                         
+                     
+                     </div>
+                 </div>
+              </div> 
+              <div class="col-lg-4">
+                <div class="box">
+                    <h4 class="title-heading">Bước 3: Xác nhận</h4>
+                     <div class="box-detail">
+                        <p>Bạn sẽ nhận được tin nhắn từ CiOne để xác nhận và kích hoạt tài khoản sau khi đăng ký</p>
+                         <p class="note">Lưu ý:<span>Thời gian xử lý giao dịch chuyển khoản phụ thuộc vào từng Ngân hàng</span> </p>
+                         <p class="hotline"><i class="fas fa-phone-volume"></i> Hotline: 0982.360.370</p>
+                     </div>
+                 </div>
+              </div> 
+          </div>
+        </div>
+      </section>
+      
+      <footer>
+      <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <a href="https://www.cione.vn">
+                    <img class="img-responsive" src="https://i.imgur.com/qssor0m.png" alt="logo CiOne">
+                </a>
+          </div>
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 footer-list">
+            <h4>Thông tin</h4>
+            <ul>
+              <li><a href="https://www.cione.vn/blog/gioi-thieu/mo-hinh-learning-care" target="_blank" rel="noopener">Mô hình học</a></li>
+              <li><a href="https://www.cione.vn/thanhtoanhocphi" target="_blank" rel="noopener">Hướng dẫn thanh toán học phí</a></li>
+              <li><a href="https://www.cione.vn/hanhtrinhchinhphucuocmo" target="_blank">Hành trình chinh phục ước mơ cùng CiOne</a></li>
+                <li><a href="https://youtu.be/8hLhg-5ZrTk" target="_blank">Hướng dẫn học viên học tại CiOne</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <h4>Liên kết</h4>
+            <ul class="footer-list">
+              <li><span class="icon-social fb"><a href="https://www.facebook.com/cione.vn/" target="_blank">Facebook</a></span></li>
+              <li><span class="icon-social gg-plus"><a href="https://plus.google.com/u/0/b/105988327309925200005/105988327309925200005" target="_blank">Google+</a></span></li>
+              <li><span class="icon-social skype"><a href="skype:cionecare?chat" target="_blank">Skype</a></span></li>
+              <li><span class="icon-social youtube"><a href="https://www.youtube.com/c/cionevietnam" target="_blank">Youtube</a></span></li>
+              <li><span class="icon-social youtube"><a href="https://www.cione.vn/blog/" target="_blank">Blog CiOne</a></span></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <h4>Liên hệ</h4>
+            <ul>
+              <li>Phone: <span class="contact">0982 360 370</span></li>
+              <li>Email: <span class="contact"><a href="mailto:cionecare@cione.vn">cionecare@cione.vn</a></span></li>
+              <li>Skype: <span class="contact"><a href="skype:cionecare?chat">cionecare</a></span></li>
+              <li>Địa chỉ: M9 Cư xá Nguyễn Đình Chiểu, Phường 4, Quận Phú Nhuận,<br> TP. Hồ Chí Minh</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+      
+      <script src="app/app.js"></script>
+      
+    
+  </body>
+</html>

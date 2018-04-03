@@ -1,0 +1,148 @@
+* {
+    font-family: 'Open Sans',sans-serif;
+    line-height: 28px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.navbar-default {
+    background-color: rgba(248,248,248,0);
+    border: none;
+    padding: 20px 115px 17px;
+}
+.nav-menu {
+    background-color: #fff!important;
+    color: #0d72b9;
+}
+.logo>a {
+    background-image: url(/img/logo.png);
+    background-size: 130px 50px;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 130px;
+    height: 50px;
+    float: left;
+}
+.navbar-brand h2{
+    display: none;
+}
+.tam{
+    height: 200px;
+}
+.register{
+    background-color: #eee;
+    position: relative;
+    padding-bottom: 20px;
+}
+h2.title-price{
+    background-color: #0d72b9;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    top: -48px;
+    padding-left: 107px;
+    font-size: 26px;
+    padding-right: 30px;
+}
+.box {
+    margin-top: 60px;
+}
+.box h4{
+    font-weight: bold;
+}
+.form-group input{
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color: #eee;
+    padding: 2px;
+}
+.box-detail{
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    height: 278px;
+    
+}
+.box-detail button{
+    width: 100%;
+    color: white;
+    background-color: #0d72b9;
+    border: none;
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+ul.account, ul{
+    list-style: none;
+    padding-left: 2px;
+}
+footer {
+    background-color: #0d72b9;
+    padding-top: 50px;
+}
+footer h4 {
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+footer ul li {
+    margin-bottom: 15px;
+    list-style: none;
+}
+footer, footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.account span{
+    font-weight: bold
+}
+p.note{
+    color: red;
+    font-style: italic;
+}
+.hotline{
+    color: #0d72b9;
+    font-weight: bold;
+}
+ul.navbar-nav li a{
+    color: #0d72b9!important;
+    font-weight: bold;
+}
+.link-register{
+    font-weight: bold;
+}
+.link-register:hover{
+    text-decoration: none;
+}
+
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+#register{
+    background-color: #0d72b9;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+#register:hover{
+    text-decoration: none;
+}
+@media (max-width: 480px){
+    h2.title-price {
+        padding-left: 19px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 991px)
+{
+    .navbar-default {
+        padding: 15px!important;
+    }
+}
